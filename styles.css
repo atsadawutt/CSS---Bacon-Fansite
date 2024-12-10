@@ -1,0 +1,32 @@
+/* Tag Selector << ทั่วไปมากกว่า*/
+/* ID Selector << เฉพาะเจาะจงที่สุด*/
+
+h1 {
+    color: red;
+    font-size: 100px;
+}
+
+img {
+    width: 20%;
+    background-color: rgb(60, 0, 255);
+}
+
+img:hover {
+    background-color: gold;
+}
+
+.bacon {
+    background-color: green;
+}
+.broccoli {
+    background-color: red;
+}
+/* เพิ่ม class ทำให้รูป broccoli เป็นวงกลม */
+.circular {
+    border-radius: 100%;
+}
+
+/* ID Selector */
+#heading {
+    color: blue;
+}
